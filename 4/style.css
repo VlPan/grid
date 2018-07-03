@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    
+    grid-template-rows: 20px 30px 40px 3fr 2fr;
+}
+
+.box {
+    background-color: dodgerblue;
+    font-size:  30px;
+}

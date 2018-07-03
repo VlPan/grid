@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-columns: 
+        [start]
+        repeat(
+        3,
+        [cal-sml-start] minmax(20px,auto)
+        [cal-sml-end col-med-start] minmax(40px,auto)
+        [cal-med-end col-sml-start] minmax(20px,auto)
+        [cal-sml-end col-lg-start] minmax(80px,auto)
+        [cal-sml-end col-lg-end] 
+        
+    )
+        [end]
+}
+
+.box {
+    font-size: 16px;
+    background-color: orange; 
+}
